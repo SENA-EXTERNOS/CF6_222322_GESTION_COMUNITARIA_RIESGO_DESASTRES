@@ -6,15 +6,15 @@
       .titulo-principal__numero
         span 3
       h1 Recursos
-    
+
     .BGIMG04.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-lg-3.col-6.mb-lg-0.mb-4
           img(src="@/assets/curso/tema3/img01.svg")
         .col-lg-7
           p.text-white.mb-0 Una vez realizado el recorrido por el mantenimiento de la gestión del riesgo, así como la notificación del evento se presenta en este apartado lo que compete a los recursos.
-    
-    p Colombia a nivel mundial posee una de las tasas más altas en cuanto a ocurrencias de eventos peligrosos ocasionados por fenómenos naturales, situación que se ve en constante aumento debido a su relación directa con el crecimiento poblacional y económico del país (Fondo Mundial para la Reducción y Recuperación de Desastres, 2006). 
+
+    p Colombia a nivel mundial posee una de las tasas más altas en cuanto a ocurrencias de eventos peligrosos ocasionados por fenómenos naturales, situación que se ve en constante aumento debido a su relación directa con el crecimiento poblacional y económico del país (Fondo Mundial para la Reducción y Recuperación de Desastres, 2006).
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10.BGR04.p-4
@@ -51,40 +51,48 @@
               .BGR05.p-4
                 .h4.text-center.mt-5 Protección financiera
 
-    p Por lo anteriormente descrito, el gobierno colombiano definió la Política Nacional de la Gestión del Riesgo (PNGRD) a través de la Ley 1523 de 2012, 
+    p Por lo anteriormente descrito, el gobierno colombiano definió la Política Nacional de la Gestión del Riesgo (PNGRD) a través de la Ley 1523 de 2012.
+
+    p Algunos aspectos que sobre esta política se deben tener presentes, son:
 
     .BGIMG01.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Territorialidad
             p.mb-0 Esta ley se presenta como una estrategia para abordar desde el nivel nacional al territorial, temas de planificación y ordenamiento territorial en cuanto a desarrollo, la inclusión del riesgo en la planificación e inversión pública, y la consolidación de fuentes de financiación ante los desastres, en conclusión, una estructura con bases sólidas para afrontar las consecuencias de los eventos naturales.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img11.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Gestión pública
             p.mb-0 Gracias a esto el Fondo Nacional de Gestión de Riesgo de Desastres funciona con fines de interés público para suplir cualquier necesidad producto de una situación de emergencia o desastre, con recursos provenientes de las administraciones departamentales y municipales, instituciones que construyen sus propios fondos para apoyar el financiamiento de la gestión del riesgo en su territorio.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema3/img12.svg") 
+            img(src="@/assets/curso/tema3/img12.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Análisis del riesgo
             p.mb-0 Lo anterior hace referencia al artículo 38 de la Ley 1523 de 2012, que establece que todos los proyectos de inversión pública que puedan tener incidencia en las dinámicas del territorio a nivel nacional, regional o local, deben tener dentro de su composición un análisis del de riesgo de desastre que cuente con un nivel de detalle directamente proporcional a la naturaleza y complejidad de dicho proyecto.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema3/img13.svg") 
+            img(src="@/assets/curso/tema3/img13.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Correspondencia con los contextos
             p.mb-0 Este análisis debe contar con los criterios de seguridad necesarios de acuerdo con su contexto, así como su incorporación desde la primera fase de diseño y formulación, lo anterior con el fin de prevenir futuras condiciones de riesgo que puedan ocasionarse como efectos de la instalación y operación de estos proyectos de inversión pública en todo el territorio nacional.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema3/img14.svg") 
+            img(src="@/assets/curso/tema3/img14.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Visión local
             p.mb-0 Otro de los puntos claves debe ser el alineamiento de estos planes, programas y proyectos con los lineamientos del Plan Municipal o Departamental de Riesgo de Desastres del área donde opera.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema3/img15.svg") 
+            img(src="@/assets/curso/tema3/img15.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Patrimonio
             p.mb-0 De acuerdo a lo anterior y en concordancia con lo estipulado en el artículo 3 del Decreto 1547 del año 1984, artículo que fue modificado por el artículo 70 del Decreto 919 de 1989, el Fondo Nacional de la Gestión de Riesgo de Desastres se establece como un fideicomiso de tipo estatal con origen legal constituido como patrimonio autónomo.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema3/img16.svg") 
+            img(src="@/assets/curso/tema3/img16.svg")
 
     p Los objetivos del FNGRD son:
 
@@ -126,7 +134,7 @@
               img(src='@/assets/curso/tema3/img23.svg')
           .h4.text-center Distribuir los recursos necesarios
 
-    p Los objetivos anteriormente descritos tienen el fin de contribuir con la implementación de la política de Gestión del Riesgo.
+    p Los objetivos anteriormente descritos, favorecen la implementación de la política de Gestión del Riesgo.
 
     .BGIMG03.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
@@ -151,25 +159,25 @@
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img27.svg")
 
-    p Las instituciones públicas con el objetivo de fortalecer la gestión de las obligaciones contingentes debido a la materialización de un evento peligroso ha señalado tres principales objetivos de política prioritarios, los cuales apoyan el objetivo general de lograr y mantener la estabilidad macroeconómica y equilibrio fiscal del país:
+    p.mb-5 Las instituciones públicas, con el objetivo de fortalecer la gestión de las obligaciones contingentes, debido a la materialización de un evento peligroso, han señalado tres principales objetivos prioritarios de política, los cuales apoyan el objetivo general de lograr y mantener la estabilidad macroeconómica y equilibrio fiscal del país. Estos son:
 
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img28.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.BGR06.p-4
             .h4.ms-5 Identificación
             p.ms-5.mb-0 Identificación y entendimiento del riesgo fiscal debido a la ocurrencia de desastres.
       .col-lg-10.mb-4
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img29.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.BGR06.p-4
             .h4.ms-5 Gestión financiera
             p.ms-5.mb-0 Gestión financiera del riesgo de desastres, la cual incluye la implementación de innovadores instrumentos financieros.
       .col-lg-10
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.BGR06.p-4
@@ -227,14 +235,14 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img36.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El gobierno colombiano tiene como propósito fortalecer la gestión de los riesgos financieros ocasionados por los eventos peligrosos o desastres mediante el Programa de Financiamiento del Riesgo de Desastres y Aseguramiento del Banco Mundial (DRFIP), que se encuentra soportado, desde el punto de vista de técnico y financiero, por la Secretaría de Estado para Asuntos Económicos (SECO) y por la Programa Global para la Reducción del Riesgo de Desastres y la Recuperación (GFDRR) (Fondo Mundial para la Reducción y Recuperación de Desastres, 2006).      
+            p.mb-0 El gobierno colombiano tiene como propósito fortalecer la gestión de los riesgos financieros ocasionados por los eventos peligrosos o desastres mediante el Programa de Financiamiento del Riesgo de Desastres y Aseguramiento del Banco Mundial (DRFIP), que se encuentra soportado, desde el punto de vista de técnico y financiero, por la Secretaría de Estado para Asuntos Económicos (SECO) y por la Programa Global para la Reducción del Riesgo de Desastres y la Recuperación (GFDRR) (Fondo Mundial para la Reducción y Recuperación de Desastres, 2006).
 
     separador
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.1 Criterios de manejo y solicitudes
-    
+    #t_3_1.color-acento-contenido(data-aos="fade-right")
+      h2 Criterios de manejo y solicitudes
+
     p De acuerdo con el capítulo anterior podemos concluir que el Fondo Nacional para la Gestión del Riesgo de Desastre se establece como una sociedad de economía mixta nacional y tipo indirecto, el cual se encuentra bajo el régimen de la Empresa Industrial y Comercial del Estado, además de encontrarse ligado al Ministerio de Hacienda y Crédito Público, y vigilado por la Superintendencia Financiera de Colombia y con control fiscal reglamentado por la Contraloría General de la República (Unidad Nacional para la Gestión del Riesgo de Desastres, 2022).
-    p Según el artículo artículo 2 del Decreto 1547 de 1984, modificado por el Decreto Ley 919 de 1989 los criterios de manejo del Fondo Nacional para la Gestión del Riesgo de Desastre son:
+    p Según el Artículo 2 del Decreto 1547 de 1984, modificado por el Decreto Ley 919 de 1989, los criterios de manejo del Fondo Nacional para la Gestión del Riesgo de Desastre, son:
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       SlyderF(columnas="col-lg-6 col-xl-4")
@@ -259,7 +267,7 @@
           .BGR01D.p-4
             p.text-center.mt-5.mb-0 Tomar medidas para prevenir los desastres o para atenuar sus efectos en caso de su materialización.
 
-    p De igual manera, es necesario aclarar que las fuentes de recursos del Fondo Nacional para la Gestión del Riesgo de Desastre son: 
+    p De igual manera, es necesario aclarar que las fuentes de recursos del Fondo Nacional para la Gestión del Riesgo de Desastre son:
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
@@ -298,11 +306,12 @@
         h4.text-center.text-white Donaciones
         p.text-center.text-white.mb-0 Recursos y/o bienes contribuidos por terceros o entidades no gubernamentales.
 
-    p La ley 80 de 1993 dispone las reglas y principios que rigen los contratos de las entidades estatales encargadas de la gestión del riesgo de desastre, los cuales son mediante la modalidad de: licitación pública, concurso de méritos, contratación directa, selección abreviada y mínima cuantía.
+    p.mb-5 La ley 80 de 1993 dispone las reglas y principios que rigen los contratos de las entidades estatales encargadas de la gestión del riesgo de desastre, los cuales son mediante la modalidad de: licitación pública, concurso de méritos, contratación directa, selección abreviada y mínima cuantía.
+
 
     .row.justify-content-center.mb-4
       .col-lg-8.cajon.color-primario.p-4
-        p.mb-0 Hemos llegado al final de este componente formativo.  Recuerde explorar los demás recursos que se encuentran disponibles, para ello diríjase al menú principal en donde encontrará la síntesis, la actividad didáctica, material complementario, entre otros.    
+        p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 </template>

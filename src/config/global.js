@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Protocolo de respuesta',
     descripcionCurso:
-      'En este componente formativo podrá interiorizar el análisis y evaluación del riesgo considerando los criterios de seguridad y los manuales de operación, como también los criterios de manejo de los recursos destinados a la Gestión del Riesgo de Desastres. Así mismo, logrará entender los mecanismos de notificación de los eventos de riesgo de desastres y los sistemas de alerta temprana, que tienen  como objetivo salvaguardar la integridad física de las comunidades mediante alarmas.',
+      'En este componente formativo se abordan aspectos claves del análisis y evaluación del riesgo, considerando los criterios de seguridad y los manuales de operación, como también los criterios de manejo de los recursos destinados a la Gestión del Riesgo de Desastres. Asimismo, logrará entender los mecanismos de notificación de los eventos de riesgo de desastres y los sistemas de alerta temprana, que tienen como objetivo salvaguardar la integridad física de las comunidades mediante alarmas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -39,20 +39,6 @@ export default {
         numero: '1',
         titulo: 'Mantenimiento',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Criterios de seguridad',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Manual de operaciones',
-            hash: 't_1_2',
-          },
-        ],
       },
 
       {
@@ -61,41 +47,13 @@ export default {
         numero: '2',
         titulo: 'Notificación del evento',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Alertas y alarmas',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Evaluación de daños',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo',
+        titulo: 'Recursos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Criterios de manejo',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Solicitudes',
-            hash: 't_3_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -140,33 +98,33 @@ export default {
   },
   complementario: [
     {
-      tema: 'Introducción',
+      tema: 'Notificación del evento',
       referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2020). Sistemas de Alerta Temprana como elementos para la gestión del riesgo de desastres. Bogotá D.C, Colombia. Recuperado el 25 de septiembre de 2022 de',
+        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2020). <em>Sistemas de Alerta Temprana como elementos para la gestión del riesgo de desastres</em>. Bogotá D.C, Colombia. ',
       tipo: 'Página WEB',
       link:
         'http://portal.gestiondelriesgo.gov.co/Paginas/Noticias/2020/Sistemas-de-Alerta-Temprana-como-elementos-para-la-gestion-del-riesgo-de-desastres.aspx',
     },
     {
-      tema: 'Criterios de seguridad',
+      tema: 'Notificación del evento',
       referencia:
-        'Oficina de Naciones Unidas para la Reducción del Riesgo de Desastres. (2014). Guía para la aplicación de criterios en la identificación de acciones claves para la planificación de la reducción del riesgo de desastres (RRD) en América Latina y el Caribe. Recuperado el 27 de septiembre de 2022, de',
+        'Oficina de Naciones Unidas para la Reducción del Riesgo de Desastres. (2014). <em>Guía para la aplicación de criterios en la identificación de acciones claves para la planificación de la reducción del riesgo de desastres (RRD) en América Latina y el Caribe</em>.',
       tipo: 'Documento',
       link:
         'https://www.undrr.org/es/publication/guia-para-la-aplicacion-de-criterios-en-la-identificacion-de-acciones-claves-para-la',
     },
     {
-      tema: 'Manual de operaciones',
+      tema: 'Mantenimiento',
       referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2013). Estandarización de la ayuda humanitaria de Colombia. Bogotá D. C, Colombia. Recuperado el 27 de septiembre de 2022, de',
+        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2013). <em>Estandarización de la ayuda humanitaria de Colombia</em>. Bogotá D. C, Colombia.',
       tipo: 'Documento',
       link:
         'https://portal.gestiondelriesgo.gov.co/Documents/Manuales/Manual_de_Estandarizacion_AHE_de_Colombia.pdf',
     },
     {
-      tema: 'Alertas y alarmas',
+      tema: 'Notificación del evento',
       referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2016). Guia para la implementación de Sistemas de alerta temprana. Bogotá D. C, Colombia. Recuperado el 27 de septiembre de 2022, de',
+        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2016). <em>Guía para la implementación de Sistemas de alerta temprana. Bogotá D. C, Colombia.</em>',
       tipo: 'Documento',
       link:
         'https://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/18505/VOL-9-GUIA-PARA-LA-IMPLEMENTACION-DE%20SISTEMAS-DE-ALETA-TEMPRANA.pdf?sequence=18',
@@ -227,7 +185,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Banco Mundial. (2012). Análisis de la gestión del riesgo de desastres en Colombia: un aporte para la construcción de políticas públicas. Bogotá D.C, Colombia. Recuperado el 25 de septiembre de 2022, de',
+        'Banco Mundial. (2012). <em>Análisis de la gestión del riesgo de desastres en Colombia: un aporte para la construcción de políticas públicas</em>. Bogotá D.C, Colombia.',
       link:
         'http://gestiondelriesgo.gov.co/sigpad/archivos/gestiondelriesgoweb.pdf',
     },
@@ -239,54 +197,54 @@ export default {
     },
     {
       referencia:
-        'Fondo Mundial para la Reducción y Recuperación de Desastres. (2006). Colombia: Estrategia de política de gestión financiera pública ante el riesgo de desastres por fenómenos de la naturaleza.  Bogotá D. C, Colombia. Recuperado el 30 de septiembre de 2022, de',
+        'Fondo Mundial para la Reducción y Recuperación de Desastres. (2006). <em>Colombia: Estrategia de política de gestión financiera pública ante el riesgo de desastres por fenómenos de la naturaleza</em>.  Bogotá D. C, Colombia. ',
       link:
         'https://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/19875/GestionFinancieraRiesgoDesastresColombia%28WorldBank_2014%29.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible. (2021). Evaluación de Daños y Necesidades Ambientales - EDANA. Bogotá D. C, Colombia. Recuperado el 29 de septiembre de 2022, de',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2021). <em>Evaluación de Daños y Necesidades Ambientales – EDANA</em>. Bogotá D. C, Colombia',
       link:
-        'https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/evaluacion-de-danos-y-necesidades-ambientales',
+        'https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/evaluacion-de-danos-y-necesidades-ambientales/',
     },
     {
       referencia:
-        'Oficina de Naciones Unidas para la Reducción del Riesgo de Desastres. (2014). Guía para la aplicación de criterios en la identificación de acciones claves para la planificación de la reducción del riesgo de desastres (RRD) en América Latina y el Caribe. Recuperado el 27 de septiembre de 2022, de',
+        'Oficina de Naciones Unidas para la Reducción del Riesgo de Desastres. (2014). <em>Guía para la aplicación de criterios en la identificación de acciones claves para la planificación de la reducción del riesgo de desastres (RRD) en América Latina y el Caribe.</em>',
       link:
         'https://www.undrr.org/es/publication/guia-para-la-aplicacion-de-criterios-en-la-identificacion-de-acciones-claves-para-la',
     },
     {
       referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2013). Estandarización de la ayuda humanitaria de Colombia. Bogotá D. C, Colombia. Recuperado el 27 de septiembre de 2022, de',
+        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2013). <em>Estandarización de la ayuda humanitaria de Colombia. Bogotá D. C, Colombia.</em>',
       link:
         'https://portal.gestiondelriesgo.gov.co/Documents/Manuales/Manual_de_Estandarizacion_AHE_de_Colombia.pdf',
     },
     {
       referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2022). Fondo Nacional de Gestión del Riesgo de Desastres. Bogotá D. C, Colombia. Recuperado el 01 de octubre de 2022, de',
+        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2022). <em>Fondo Nacional de Gestión del Riesgo de Desastres. Bogotá D. C, Colombia.</em>',
       link:
         'https://portal.gestiondelriesgo.gov.co/Paginas/Fondo-Nacional-de-Calamidades.aspx',
     },
     {
       referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2016). Guia para la implementación de Sistemas de alerta temprana. Bogotá D. C, Colombia. Recuperado el 27 de septiembre de 2022, de',
+        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2016). <em>Guía para la implementación de Sistemas de alerta temprana. Bogotá D. C, Colombia.</em>',
       link:
         'https://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/18505/VOL-9-GUIA-PARA-LA-IMPLEMENTACION-DE%20SISTEMAS-DE-ALETA-TEMPRANA.pdf?sequence=18',
     },
     {
       referencia:
-        'Unidad Nacional de Gestión del Riesgo de Desastres (UNGRD). (2013). Plan Nacional de Gestión del Riesgo de Desastres 2013-2025 "Una Estrategia de Desarrollo". Recuperado el 25 de agosto de 2022, de',
+        'Unidad Nacional de Gestión del Riesgo de Desastres (UNGRD). (2013). <em>Plan Nacional de Gestión del Riesgo de Desastres 2013-2025 "Una Estrategia de Desarrollo".</em>',
       link:
         'http://docs.wixstatic.com/ugd/a02d6e_1eff708014424892a113344def36a25c.pdf',
     },
     {
       referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2021). Recuperación post desastre para la resiliencia urbana. Recuperado el 25 de septiembre de 2022, de',
+        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2021). <em>Recuperación post desastre para la resiliencia urbana.</em>',
       link: 'https://www.youtube.com/watch?v=_a0-AVz_Mh4',
     },
     {
       referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2020). Sistemas de Alerta Temprana como elementos para la gestión del riesgo de desastres. Bogotá D.C, Colombia. Recuperado el 25 de septiembre de 2022 de',
+        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2020). Sistemas de Alerta Temprana como elementos para la gestión del riesgo de desastres. Bogotá D.C, Colombia. ',
       link:
         'http://portal.gestiondelriesgo.gov.co/Paginas/Noticias/2020/Sistemas-de-Alerta-Temprana-como-elementos-para-la-gestion-del-riesgo-de-desastres.aspx',
     },

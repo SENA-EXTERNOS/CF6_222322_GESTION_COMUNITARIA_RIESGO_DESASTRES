@@ -6,34 +6,37 @@
       .titulo-principal__numero
         span 2
       h1 Notificación del evento
-    
-    p Reconociendo los elementos destacados del mantenimiento del riesgo de desastres, se presenta ahora lo relacionado con la notificación del evento de desastres.
+
+    p Reconociendo los elementos destacados del mantenimiento del riesgo de desastres, se presenta ahora lo relacionado con la notificación del evento de desastres:
 
     .BGIMG03.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
-          .col-lg-4.order-lg-1.order-2
+          .col-lg-5.order-lg-1.order-2
+            h4 La información
             p.mb-0 Al momento de la materialización de un evento de desastres y una situación de emergencia la información se constituye como uno de los puntos más importantes para la toma de decisiones, debido a que brinda la base para una respuesta oportuna y eficaz a la población afectada por el evento.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img01.svg")
         .row.justify-content-center.align-items-center
-          .col-lg-4.order-lg-1.order-2
+          .col-lg-6.order-lg-1.order-2
+            h4 Notificación de los eventos
             p.mb-0 Los sistemas de notificación de eventos son entonces los instrumentos usados para la prevención y reducción de desastres, se componen de dos elementos principales: las alarmas y las alertas, que tienen como principal objetivo dar a conocer a las instituciones públicas, privadas y comunitarias las condiciones de alarma, con base en la inspección y análisis de los fenómenos naturales, además de contar con un reporte rápido y oportuno que las comunidades pueden utilizar para solicitar la ayuda respectiva a las instituciones gubernamentales y organismos de socorro.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img02.svg")
         .row.justify-content-center.align-items-center
-          .col-lg-4.order-lg-1.order-2
+          .col-lg-5.order-lg-1.order-2
+            h4 Formalidad y normativa
             p.mb-0 De acuerdo con el Capítulo IV de la Ley 1523 de 2012 en sus artículos 45 y 46, la Unidad Nacional de Gestión de Riesgo de Desastres (UNGRD) cuenta con el Sistema Nacional de Información para la Gestión del Riesgo de Desastres en el marco de las políticas, estándares y tecnologías que definen la infraestructura colombiana de datos espaciales.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img03.svg")
         .row.justify-content-center.align-items-center
-          .col-lg-4.order-lg-1.order-2
+          .col-lg-5.order-lg-1.order-2
+            h4 Actualización
             p.mb-0 El propósito principal de este sistema es la generación y uso de información sobre el riesgo de desastre, su reducción y el protocolo de respuesta, debido a esto es primordial que se mantenga actualizado y en funcionamiento a través de la integración de datos ofrecidos por las entidades territoriales a nivel nacional, regional y local.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img04.svg")
-    
+
     p El Sistema Nacional de Información para la Gestión del Riesgo de Desastres, en general, permite:
-    p Fuente: (Ministerio del interior, 2012).
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       SlyderF(columnas="col-lg-6 col-xl-4")
@@ -79,38 +82,44 @@
             p.text-center.mb-0 Privilegiar el trabajo conjunto para producir, compartir y usar información geográfica necesaria para soportar el desarrollo del país.
 
     separador
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.1 Alertas y alarmas
-    
-    p Como parte de la notificación de un desastre se destacan las alertas y alarmas, tal y como se describe en este apartado.
+    #t_2_1.color-acento-contenido(data-aos="fade-right")
+      h2 Alertas y alarmas
+
+    p Como parte de la notificación de un desastre, se destacan las alertas y alarmas, tal y como se describe a continuación:
 
     .BGIMG01.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Herramientas y capacidades técnicas
             p.mb-0 Los Sistemas de alarmas y Alertas Temprana SAT son un conjunto de herramientas y capacidades técnicas que permiten la identificación y comunicación de una situación de alerta. En estos intervienen instituciones de carácter público, privado y comunitario que se encargan de proveer esta información de forma oportuna y eficaz de modo que la comunidad que se encuentra expuesta, temporal y espacialmente, al desarrollo de una condición de amenaza la toma de decisiones para minimizar o evitar la manifestación del riesgo.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img13.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Declaración previa
             p.mb-0 Por lo tanto, de acuerdo con la Ley 1523 de 2012 en su artículo 4, alerta se establece como el estado declarado previamente a la materialización de un evento peligroso, como resultado del monitoreo realizado al comportamiento de los fenómenos estudiados en el espacio geográfico específico, lo anterior con el objetivo de que tanto la comunidad como las instituciones activen los planes o procedimientos de acción que se establecieron previamente.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img14.svg")
         .row.justify-content-around.align-items-center
           .col-lg-5.order-lg-1.order-2
+            h4 Alarmas y alertas en relación con los planes de emergencia
             p.mb-0 Las acciones emprendidas desde los SAT se encuentran directamente relacionadas con las acciones de planificación, respuesta y recuperación de la gestión del riesgo de desastres. Por lo tanto, la generación previa del conocimiento de los fenómenos naturales, el incremento de las herramientas y capacidades técnicas de las instituciones públicas y privadas como de la comunidad, la mejora continua de los sistemas de comunicación y el fácil acceso a las diferentes tecnologías para monitorear estos fenómenos, la revisión de las alertas a nivel mundial, nacional o local y la vigilancia de los pronósticos permiten la consolidación de alarmas que tienen como objetivo salvaguardar la integridad física de las comunidades y el mejoramiento de los métodos de actividades productivas (Unidad Nacional de Gestión del Riesgo de Desastres - UNGRD, 2016).
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img15.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Intencionalidades de las alertas
             p.mb-0 Mediante la consolidación de estas alertas lo que se busca es capacitar y facultar a la población que se encuentra en estado de vulnerabilidad frente a una amenaza o evento que puede desencadenar situaciones potencialmente peligrosas, de manera que las personas puedan dar una respuesta adecuada y a tiempo para evitar y reducir cualquier posible pérdida económica debido a una afectación sobre sus medios de vida o a la propiedad, así mismo reducir cualquier pérdida de vidas humanas, daño personal o impactos sobre el ambiente.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img16.svg")
 
-    p Para que un sistema de alerta temprana funcione de manera eficaz debe cumplir con cuatro componentes fundamentales que se interrelacionan entre sí: 
+    p Para que un sistema de alerta temprana funcione de manera eficaz debe cumplir con cuatro componentes fundamentales que se interrelacionan entre sí:
 
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="zoom-in")
+        .titulo-quinto.color-acento-contenido.mt-4
+          h4 SISTEMA DE ALERTAS TEMPRANAS
         ImagenInfografica.color-secundario.mb-4
           template(v-slot:imagen)
             figure
@@ -160,31 +169,38 @@
                 <i class="fas fa-circle" style="color:#fff; font-size: x-small"></i>
                 | ¿Está la población preparada  para responder a las alertas?
         .titulo-sexto.color-primario
-          h5 Fuente:
-          span (Unidad Nacional para la Gestión del Riesgo de Desastres, 2016).
-    
+          h5 Nota:
+          span tomado de Unidad Nacional para la Gestión del Riesgo de Desastres (2016)
+
     p Todas las acciones que se planifiquen y ejecuten en materia de alerta temprana se encuentren alineadas con las acciones de respuesta y recuperación y por ende con las acciones emprendidas desde la Gestión Integral del Riesgo de Desastres.
+
+    p Tenga presente algunas generalidades, sobre las alertas tempranas, como las que se enuncian seguidamente:
+
 
     .BGIMG02.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Conocimiento de los fenómenos
             p.mb-0 El conocimiento de los fenómenos, la vulnerabilidad y los riesgos se fundamenta como el primer componente, que da paso al seguimiento de las causas y parámetros que antecedieron las amenazas para la creación de alertas que sean eficaces para los servicios de alertas.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img18.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
-            p.mb-0 Por último se encuentra la divulgación oportuna, confiable y comprensible de la información recopilada de los riesgos y sus respectivas alertas tempranas para una planificación, preparación y capacitación que constituye la capacidad para la respuesta en todo nivel institucional público, privado y comunitario.
+            h4 Divulgación
+            p.mb-0 La divulgación ha de ser oportuna, confiable y comprensible de la información recopilada de los riesgos y sus respectivas alertas tempranas para una planificación, preparación y capacitación, que constituyen la capacidad para la respuesta en todo el nivel institucional público, privado y comunitario.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img19.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
+            h4 Convenios internacionales
             p.mb-0 Colombia se encuentra vinculada a las redes de pronóstico y a las alertas de los diferentes fenómenos de origen natural que puedan ocasionarse a nivel mundial mediante la adhesión de los convenios de las Naciones Unidas, como son aquellos firmados en el marco de la Organización Meteorológica Mundial (OMM) en los años 60, desde entonces a nivel nacional se han implementado redes de monitoreo hidrometeorológico que se encuentran en constante actualización y mejoramiento.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img20.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
-            p.mb-0 De igual manera se encuentran incluidas las redes de difusión y comunicación para el intercambio de este tipo información con los centros de procesamiento de datos sobre los fenómenos o riesgos a escala mundial (Unidad Nacional de Gestión del Riesgo de Desastres - UNGRD, 2016).
+            h4 Centros de procesamiento y redes de difusión
+            p.mb-0 De igual manera se encuentran incluidas las redes de difusión y comunicación para el intercambio de este tipo información con los centros de procesamiento de datos sobre los fenómenos o riesgos a escala mundial.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img21.svg")
 
@@ -215,19 +231,21 @@
             .col-7
               img(src='@/assets/curso/tema2/img25.svg')
           h4.text-center Adopción de medidas de respuesta.
-  
+
     .BGM02.px-md-5.px-4.pt-4.mb-4
       p De igual manera el código de colores utilizado para notificar la ocurrencia de un evento es:
-    
+
       .row.justify-content-center(data-aos="zoom-in")
         .col-lg-10
           img(src="@/assets/curso/tema2/img26.svg")
-      
+
     separador
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.2 Evaluación de daños
-    
-    p Una vez reconocidos los elementos destacados en cuanto a las alertas y alarmas tempranos se presenta en este apartado lo relacionado con la evaluación de daños.
+    #t_2_2.color-acento-contenido(data-aos="fade-right")
+      h2 Evaluación de daños
+
+    p Una vez reconocidos los elementos destacados en cuanto a las alertas y alarmas tempranas, es clave identificar las generalidades y elementos fundamentales de la evaluación de daños.
+
+    p Sobre la evaluación de daños, considere:
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -235,13 +253,16 @@
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="BGR03")
           div(titulo="Estrategia nacional para la respuesta a emergencias")
+
             p.mb-0 En función del artículo 35 de la Ley 1523 de 2012 se estipula la Estrategia nacional para la respuesta a emergencias, la cual tiene como fin definir las actuaciones de reacción y atención de emergencias para las entidades involucradas en el Sistema Nacional de Gestión del Riesgo. Hace referencia a la acción de preparación para la respuesta, es decir se refiere a la búsqueda de efectividad de los organismos institucionales frente a la optimización de la evaluación de daños.
           div(titulo="Proceso de Evaluación de Daños y Análisis de Necesidades")
+
             p.mb-0 El proceso de Evaluación de Daños y Análisis de Necesidades (EDAN) se refiere a la descripción objetiva de las consecuencias o impactos de un evento sobre la salud humana o bienes materiales,  y de este modo determinar los recursos necesarios para subsanar estos efectos inmediatos y futuros. Por lo tanto, el objetivo principal de la EDAN es contribuir con la toma de decisiones para reducir el daño a la salud humana, la pérdida de vidas y cualquier afectación económica.
           div(titulo="Evaluación de Daños y Análisis de Necesidades Ambientales por desastre Continental")
+
             p.mb-0 Ahora bien, también se cuenta con la Evaluación de Daños y Análisis de Necesidades Ambientales por desastre Continental (EDENA-C), procedimiento que aporta la hoja de ruta para una evaluación ambiental, la cual realiza una valoración inicial de los daños después de la ocurrencia del evento, así como un cálculo e identificación de las pérdidas y necesidades ambientales para contribuir con la fase de atención y recuperación en cuanto a la toma de decisiones (Ministerio de Ambiente y Desarrollo Sostenible, 2021).
 
-    p Las consecuencias de los eventos pueden clasificarse como daños directos e indirectos.
+    p Las consecuencias de los eventos pueden clasificarse como daños directos e indirectos, así:
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       TabsC.color-primario
@@ -270,7 +291,7 @@
             img(src="@/assets/curso/tema2/img32.png")
           .col-lg-6
             p.mb-0 Derivado del desastre se pueden contabilizar también los efectos secundarios sobre la conducta de los principales indicadores y variables económicas del país. La medición de los efectos secundarios se realiza desde un punto de vista diferente a pesar de llevarse a cabo como un complemento de la valoración de los daños directos e indirectos, de esta manera los efectos evidencian los resultados de los daños y no deben ser contabilizados en estos.
-            
+
 </template>
 
 <script>
