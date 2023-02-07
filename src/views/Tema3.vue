@@ -186,8 +186,51 @@
 
     p Algunos de los actores que se encuentran colaborando con la implementación de la Política Nacional de Gestión del Riesgo de Desastres son:
 
-    .row.justify-content-center.mb-4
-      .col-lg.col-6.mb-xl-0.mb-4
+
+    #slidePNGR.d-flex.flex-row.flex-wrap.justify-content-center.mb-4
+
+        .tarjeta.tarjeta-slide.arriba.BGR03A(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.BGR03A.p-3
+              .h4 MHCP
+              p Ministerio de Hacienda y Crédito Público.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img31.svg')})`}")
+
+        .tarjeta.tarjeta-slide.arriba.BGR03A(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.BGR03A.p-3
+              .h4 CCE
+              p La Agencia Nacional de Contratación Pública Colombia Compra Eficiente.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img32.svg')})`}")
+
+        .tarjeta.tarjeta-slide.arriba.BGR03A(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.BGR03A.p-3
+              .h4 ANI
+              p La Agencia Nacional de Infraestructura.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img33.svg')})`}")
+
+        .tarjeta.tarjeta-slide.arriba.BGR03A(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.BGR03A.p-3
+              .h4 SGC
+              p El Servicio Geológico Colombiano.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img34.svg')})`}")
+
+        .tarjeta.tarjeta-slide.arriba.BGR03A(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.BGR03A.p-3
+              .h4 UNGRD
+              p La Unidad Nacional de Gestión del Riesgo.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img35.svg')})`}")
+
+    .row.justify-content-center.mb-4.d-none
+      .col-lg.col-md-3.col-6.mb-xl-0.mb-4
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -359,4 +402,10 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+#slidePNGR
+  .tarjeta
+    width: 230px;
+    height: 326px;
+    margin: 4px;
+</style>

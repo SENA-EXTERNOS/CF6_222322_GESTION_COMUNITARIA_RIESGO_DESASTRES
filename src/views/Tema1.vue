@@ -15,7 +15,7 @@
 
     p La ejecución de estos procesos, permite la consolidación de estrategias para mantener la gobernabilidad de la gestión del riesgo de desastres y asegurar el desarrollo territorial sostenible, para que las poblaciones puedan garantizar su bienestar y calidad de vida, como podemos observar:
 
-    p El mantenimiento o manejo del riesgo se compone de las siguientes tres fases :
+    p El mantenimiento o manejo del riesgo se compone de las siguientes tres fases:
 
     .BGIMG01.p-4.mb-1(data-aos="fade-right")
       PasosB.color-secundario
