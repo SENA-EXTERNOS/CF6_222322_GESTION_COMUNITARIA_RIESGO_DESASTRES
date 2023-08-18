@@ -121,14 +121,6 @@ export default {
       link:
         'https://portal.gestiondelriesgo.gov.co/Documents/Manuales/Manual_de_Estandarizacion_AHE_de_Colombia.pdf',
     },
-    {
-      tema: 'Notificación del evento',
-      referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2016). <em>Guía para la implementación de Sistemas de alerta temprana. Bogotá D. C, Colombia.</em>',
-      tipo: 'Documento',
-      link:
-        'https://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/18505/VOL-9-GUIA-PARA-LA-IMPLEMENTACION-DE%20SISTEMAS-DE-ALETA-TEMPRANA.pdf?sequence=18',
-    },
   ],
   glosario: [
     {
@@ -198,8 +190,6 @@ export default {
     {
       referencia:
         'Fondo Mundial para la Reducción y Recuperación de Desastres. (2006). <em>Colombia: Estrategia de política de gestión financiera pública ante el riesgo de desastres por fenómenos de la naturaleza</em>.  Bogotá D. C, Colombia. ',
-      link:
-        'https://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/19875/GestionFinancieraRiesgoDesastresColombia%28WorldBank_2014%29.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
@@ -228,8 +218,6 @@ export default {
     {
       referencia:
         'Unidad Nacional para la Gestión del Riesgo de Desastres. (2016). <em>Guía para la implementación de Sistemas de alerta temprana. Bogotá D. C, Colombia.</em>',
-      link:
-        'https://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/18505/VOL-9-GUIA-PARA-LA-IMPLEMENTACION-DE%20SISTEMAS-DE-ALETA-TEMPRANA.pdf?sequence=18',
     },
     {
       referencia:
