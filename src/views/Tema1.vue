@@ -7,13 +7,13 @@
         span 1
       h1 Mantenimiento
 
-    p La Política Nacional de la Gestión del Riesgo (PNGRD), se encuentra fundamentada en los procesos de gestión del riesgo de desastres, los cuales, de acuerdo con la Ley 1523 del 2012 en su Artículo No 4, se establecen como:
+    p La Política Nacional de la Gestión del Riesgo de Desastres (PNGRD), se encuentra fundamentada en los procesos de gestión del riesgo de desastres, los cuales, de acuerdo con la Ley 1523 del 2012 en su Artículo No 4, se establecen como:
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-11.col-12
         img(src="@/assets/curso/tema1/img01.svg")
 
-    p La ejecución de estos procesos, permite la consolidación de estrategias para mantener la gobernabilidad de la gestión del riesgo de desastres y asegurar el desarrollo territorial sostenible, para que las poblaciones puedan garantizar su bienestar y calidad de vida, como podemos observar:
+    p La ejecución de estos procesos, permite la consolidación de estrategias para mantener la gobernabilidad de la Gestión del Riesgo de Desastres y asegurar el desarrollo territorial sostenible, para que las poblaciones puedan garantizar su bienestar y calidad de vida, como podemos observar:
 
     p El mantenimiento o manejo del riesgo se compone de las siguientes tres fases:
 
@@ -89,7 +89,7 @@
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
             h4 Condiciones ambientales y de contexto
-            p.mb-0 Colombia, por su ubicación tectónica y ecuatorial posee ciertas características geográficas específicas, como lo son la dificultad topográfica y geológica, las cuales generan una condiciones climáticas exigentes que frente a la inadecuada planificación y ordenamiento territorial puede generar múltiples amenazas asociadas a erupciones volcánicas, sismos, tsunamis, ciclones tropicales y/o huracanes que dan paso a la materialización de desastres, los cuales a su vez de acuerdo a su intensidad y localización tienen la potencialidad de generar grandes pérdidas que podrían comprometer la estabilidad económica, fiscal y social del país.
+            p.mb-0 Colombia, por su ubicación en tres placas tectónicas y en la zona ecuatorial posee ciertas características geográficas específicas, como lo son la dificultad topográfica y geológica, las cuales generan una condiciones climáticas exigentes que frente a la inadecuada planificación y ordenamiento territorial puede generar múltiples amenazas asociadas a erupciones volcánicas, sismos, tsunamis, ciclones tropicales y/o huracanes que dan paso a la materialización de desastres, los cuales a su vez de acuerdo a su intensidad y localización tienen la potencialidad de generar grandes pérdidas que podrían comprometer la estabilidad económica, fiscal y social del país.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img10.png")
         .row.justify-content-around.align-items-center
@@ -118,29 +118,29 @@
       SlyderF(columnas="col-lg-6 col-xl-4")
         .tarjeta-avatar.h-100
           img(src='@/assets/curso/tema1/img13.svg' alt='AvatarTop')
-          .BGR01A.p-4
+          .BGR01A.p-4.h-100
             .h4.text-center.mt-5 Criterio
             p.text-center.mb-0 De acuerdo con la temática del proyecto se formula el criterio a desarrollar.
         .tarjeta-avatar.h-100
           img(src='@/assets/curso/tema1/img14.svg' alt='AvatarTop')
-          .BGR01A.p-4
+          .BGR01A.p-4.h-100
             .h4.text-center.mt-5 Pregunta base
             p.text-center.mb-0 Establece el cuestionamiento principal y previamente determinado por la metodología acerca de la condición actual o la información disponible del criterio en revisión.
         .tarjeta-avatar.h-100
           img(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
-          .BGR01A.p-4
+          .BGR01A.p-4.h-100
             .h4.text-center.mt-5 Fuente de respuesta
             p.text-center.mb-0 Se determina y busca las fuentes de información necesarias para dar solución a la pregunta base.
         .tarjeta-avatar.h-100
           img(src='@/assets/curso/tema1/img16.svg' alt='AvatarTop')
-          .BGR01A.p-4
+          .BGR01A.p-4.h-100
             .h4.text-center.mt-5 Clasificación según nivel de relevancia
             p.text-center.mb-0 Parámetro cualitativo que determina el estado de situación “prioritario”, “moderada”, o “no prioritario” sobre la base del análisis de la información disponible para la estimación del criterio.
-        .tarjeta-avatar.h-100
+        .tarjeta-avatar(style="min-height: 450px")
           img(src='@/assets/curso/tema1/img17.svg' alt='AvatarTop')
-          .BGR01A.p-3
+          .BGR01A.p-3.h-100
             .h4.text-center.mt-5 Mapa de ruta de prioridades / perfil del área territorial en relación a las prioridades de la reducción del riesgo de desastres
-            p.text-center.mb-0 Recopila la información prioritaria otorgada por la clasificación según nivel de relevancia para su uso en un único instrumento con recomendaciones para el diseño, construcción y operación de los proyectos de infraestructura de y de sistemas productivos, y el seguimiento de aquellas en situación de relevancia moderada.
+            p.text-center.mb-0 Recopila la información prioritaria otorgada en la etapa de “clasificación según nivel de relevancia”, para su uso en un único instrumento con recomendaciones para el diseño, construcción y operación de los proyectos de infraestructura y de sistemas productivos, y el seguimiento de aquellas en situación de relevancia moderada.
 
     separador
     #t_1_2.color-acento-contenido(data-aos="fade-right")

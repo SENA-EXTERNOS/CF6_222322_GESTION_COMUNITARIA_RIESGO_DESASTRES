@@ -101,7 +101,7 @@ export default {
       tema: 'Notificación del evento',
       referencia:
         'Unidad Nacional para la Gestión del Riesgo de Desastres. (2020). <em>Sistemas de Alerta Temprana como elementos para la gestión del riesgo de desastres</em>. Bogotá D.C, Colombia. ',
-      tipo: 'Página WEB',
+      tipo: 'Página web',
       link:
         'http://portal.gestiondelriesgo.gov.co/Paginas/Noticias/2020/Sistemas-de-Alerta-Temprana-como-elementos-para-la-gestion-del-riesgo-de-desastres.aspx',
     },
@@ -136,12 +136,12 @@ export default {
     {
       termino: 'Evento',
       significado:
-        'fenómeno - natural, socio-natural o tecnológico - que actúa como el detonante de los efectos adversos sobre las vidas humanas, la salud y/o la infraestructura económica y social y ambiental de un territorio.',
+        'fenómeno natural, socionatural o tecnológico, que actúa como el detonante de los efectos adversos sobre las vidas humanas, la salud y/o la infraestructura económica y social y ambiental de un territorio.',
     },
     {
       termino: 'Manejo de desastres',
       significado:
-        'proceso de la gestión del riesgo compuesto por la preparación para la respuesta a emergencias, la preparación para la recuperación posdesastre, la ejecución de dicha respuesta y la ejecución de la respectiva recuperación, entiéndase: rehabilitación y recuperación.',
+        'proceso de la gestión del riesgo compuesto por la preparación para la respuesta a emergencias, la preparación para la recuperación post-desastre, la ejecución de dicha respuesta y la ejecución de la respectiva recuperación, entiéndase: rehabilitación y recuperación.',
     },
     {
       termino: 'Preparación',
@@ -169,7 +169,7 @@ export default {
         'capacidad de un sistema, comunidad o sociedad expuestos a una amenaza para resistir, absorber, adaptarse y recuperarse de sus efectos de manera oportuna y eficaz, lo que incluye la preservación y la restauración de sus estructuras y funciones básicas.',
     },
     {
-      termino: 'Sistemas de alerta temprana',
+      termino: 'Sistemas de Alerta Temprana',
       significado:
         'sistema integrado de vigilancia, previsión y predicción de riesgos, evaluación de riesgos de desastres, comunicación y preparación, sistemas y procesos que permiten a las personas, comunidades, gobiernos, empresas y otros, tomar medidas oportunas para reducir los riesgos de desastres ante la manifestación de un evento amenazante.',
     },
@@ -190,6 +190,8 @@ export default {
     {
       referencia:
         'Fondo Mundial para la Reducción y Recuperación de Desastres. (2006). <em>Colombia: Estrategia de política de gestión financiera pública ante el riesgo de desastres por fenómenos de la naturaleza</em>.  Bogotá D. C, Colombia. ',
+      link:
+        'https://www.gfdrr.org/sites/default/files/publication/Colombia_Estrategia_de_Pol%C3%ADtica_de_Gesti%C3%B3n_Financiera_P%C3%BAblica_ante_el_Riesgo_de_Desastres_por_Fen%C3%B3menos_de_la%20Naturaleza.pdf',
     },
     {
       referencia:
@@ -218,6 +220,8 @@ export default {
     {
       referencia:
         'Unidad Nacional para la Gestión del Riesgo de Desastres. (2016). <em>Guía para la implementación de Sistemas de alerta temprana. Bogotá D. C, Colombia.</em>',
+      link:
+        'http://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/18505/VOL-9-GUIA-PARA-LA-IMPLEMENTACION-DE%20SISTEMAS-DE-ALETA-TEMPRANA.pdf?sequence=18',
     },
     {
       referencia:
@@ -232,7 +236,7 @@ export default {
     },
     {
       referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2020). Sistemas de Alerta Temprana como elementos para la gestión del riesgo de desastres. Bogotá D.C, Colombia. ',
+        'Unidad Nacional para la Gestión del Riesgo de Desastres. (2020). <em>Sistemas de Alerta Temprana como elementos para la gestión del riesgo de desastres.</em> Bogotá D.C, Colombia. ',
       link:
         'http://portal.gestiondelriesgo.gov.co/Paginas/Noticias/2020/Sistemas-de-Alerta-Temprana-como-elementos-para-la-gestion-del-riesgo-de-desastres.aspx',
     },

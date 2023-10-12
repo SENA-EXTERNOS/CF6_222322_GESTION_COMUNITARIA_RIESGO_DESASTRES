@@ -72,7 +72,7 @@
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
             h4 Análisis del riesgo
-            p.mb-0 Lo anterior hace referencia al artículo 38 de la Ley 1523 de 2012, que establece que todos los proyectos de inversión pública que puedan tener incidencia en las dinámicas del territorio a nivel nacional, regional o local, deben tener dentro de su composición un análisis del de riesgo de desastre que cuente con un nivel de detalle directamente proporcional a la naturaleza y complejidad de dicho proyecto.
+            p.mb-0 Lo anterior hace referencia al artículo 38 de la Ley 1523 de 2012, que establece que todos los proyectos de inversión pública que puedan tener incidencia en las dinámicas del territorio a nivel nacional, regional o local, deben tener dentro de su composición un análisis de riesgo de desastre que cuente con un nivel de detalle directamente proporcional a la naturaleza y complejidad de dicho proyecto.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img13.svg")
         .row.justify-content-around.align-items-center
@@ -140,7 +140,7 @@
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
-            p.mb-0 En estos objetivos están incluidos los procesos de gestión conocimiento del riesgo, la reducción del riesgo y el manejo de Desastres, esto mediante la implementación de la protección financiera, a través de instrumentos y mecanismos financieros de retención intencional o transferencia del riesgo que se establecen en forma ex ante con el fin de acceder de manera ex post a recursos económicos oportunos para la atención de emergencias y la recuperación.
+            p.mb-0 En estos objetivos están incluidos los procesos de gestión de conocimiento del riesgo, la reducción del riesgo y el manejo de desastres, esto mediante la implementación de la protección financiera, a través de instrumentos y mecanismos financieros de retención intencional o transferencia del riesgo que se establecen en forma ex-ante con el fin de acceder de manera ex-post a recursos económicos oportunos para la atención de emergencias y la recuperación.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img24.png")
         .row.justify-content-around.align-items-center
@@ -155,7 +155,7 @@
             img(src="@/assets/curso/tema3/img26.svg")
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
-            p.mb-0 El Gobierno Colombiano al reconocer la relevancia que tiene la mitigación de estos eventos peligrosos ha abordado diferentes acciones para incorporar  la gestión del riesgo de desastres como un componente principal en sus políticas y programas.
+            p.mb-0 El Gobierno Colombiano al reconocer la relevancia que tiene la mitigación de estos eventos peligrosos ha abordado diferentes acciones para incorporar  la Gestión del Riesgo de Desastres como un componente principal en sus políticas y programas.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img27.svg")
 
@@ -278,7 +278,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img36.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El gobierno colombiano tiene como propósito fortalecer la gestión de los riesgos financieros ocasionados por los eventos peligrosos o desastres mediante el Programa de Financiamiento del Riesgo de Desastres y Aseguramiento del Banco Mundial (DRFIP), que se encuentra soportado, desde el punto de vista de técnico y financiero, por la Secretaría de Estado para Asuntos Económicos (SECO) y por la Programa Global para la Reducción del Riesgo de Desastres y la Recuperación (GFDRR) (Fondo Mundial para la Reducción y Recuperación de Desastres, 2006).
+            p.mb-0 El gobierno colombiano tiene como propósito fortalecer la gestión de los riesgos financieros ocasionados por los eventos peligrosos o desastres mediante el Programa de Financiamiento del Riesgo de Desastres y Aseguramiento del Banco Mundial (DRFIP), que se encuentra soportado, desde el punto de vista técnico y financiero, por la Secretaría de Estado para Asuntos Económicos (SECO) y por el Programa Global para la Reducción del Riesgo de Desastres y la Recuperación (GFDRR) (Fondo Mundial para la Reducción y Recuperación de Desastres, 2006).
 
     separador
     #t_3_1.color-acento-contenido(data-aos="fade-right")
@@ -349,7 +349,7 @@
         h4.text-center.text-white Donaciones
         p.text-center.text-white.mb-0 Recursos y/o bienes contribuidos por terceros o entidades no gubernamentales.
 
-    p.mb-5 La ley 80 de 1993 dispone las reglas y principios que rigen los contratos de las entidades estatales encargadas de la gestión del riesgo de desastre, los cuales son mediante la modalidad de: licitación pública, concurso de méritos, contratación directa, selección abreviada y mínima cuantía.
+    p.mb-5 La ley 80 de 1993 dispone las reglas y principios que rigen los contratos de las entidades estatales encargadas de la Gestión del Riesgo de Desastre, los cuales son mediante la modalidad de: licitación pública, concurso de méritos, contratación directa, selección abreviada y mínima cuantía.
 
 
     .row.justify-content-center.mb-4
@@ -386,7 +386,7 @@ export default {
       {
         titulo: 'Ley 1523 de 2012',
         texto:
-          'De acuerdo la Ley 1523 de 2012 el Fondo Nacional de Calamidades pasa a llamarse Fondo Nacional para la Gestión del Riesgo de Desastres, e instaura que el esquema financiero del SNGRD cuente con un esquema financiero consistente y coherente con su estructura, donde se lleve a cabo un manejo adecuado de los recursos por parte de los actores e instituciones que conforman dicho sistema y cumplen con los objetivos de los procesos de gestión del riesgo de desastres.',
+          'De acuerdo la Ley 1523 de 2012 el Fondo Nacional de Calamidades pasa a llamarse Fondo Nacional para la Gestión del Riesgo de Desastres, e instaura que el esquema financiero del SNGRD cuente con un esquema financiero consistente y coherente con su estructura, donde se lleve a cabo un manejo adecuado de los recursos por parte de los actores e instituciones que conforman dicho sistema y cumplen con los objetivos de los procesos de Gestión del Riesgo de Desastres.',
         icono: require('@/assets/curso/tema3/img05.svg'),
       },
     ],

@@ -49,7 +49,7 @@
           img(src='@/assets/curso/tema2/img06.svg' alt='AvatarTop')
           .BGR01B.p-4
             .h4.text-center.mt-5 Acción 2
-            p.text-center.mb-0 Adaptar, adoptar y promover estándares, protocolos, soluciones tecnológicas y procesos para el manejo de la información para la gestión del riesgo de desastres a nivel nacional, departamental, distrital y municipal.
+            p.text-center.mb-0 Adaptar, adoptar y promover estándares, protocolos, soluciones tecnológicas y procesos para el manejo de la información para la Gestión del Riesgo de Desastres a nivel nacional, departamental, distrital y municipal.
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img07.svg' alt='AvatarTop')
           .BGR01B.p-4
@@ -92,7 +92,7 @@
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
             h4 Herramientas y capacidades técnicas
-            p.mb-0 Los Sistemas de alarmas y Alertas Temprana SAT son un conjunto de herramientas y capacidades técnicas que permiten la identificación y comunicación de una situación de alerta. En estos intervienen instituciones de carácter público, privado y comunitario que se encargan de proveer esta información de forma oportuna y eficaz de modo que la comunidad que se encuentra expuesta, temporal y espacialmente, al desarrollo de una condición de amenaza la toma de decisiones para minimizar o evitar la manifestación del riesgo.
+            p.mb-0 Los Sistemas de alarmas y Alertas Temprana SAT son un conjunto de herramientas y capacidades técnicas que permiten la identificación y comunicación de una situación de alerta. En estos intervienen instituciones de carácter público, privado y comunitario que se encargan de proveer esta información de forma oportuna y eficaz de modo que la comunidad que se encuentra expuesta, temporal y espacialmente, al desarrollo de una condición de amenaza, tome decisiones para minimizar o evitar la manifestación del riesgo.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img13.svg")
         .row.justify-content-around.align-items-center
@@ -200,7 +200,7 @@
         .row.justify-content-around.align-items-center
           .col-lg-4.order-lg-1.order-2
             h4 Centros de procesamiento y redes de difusión
-            p.mb-0 De igual manera se encuentran incluidas las redes de difusión y comunicación para el intercambio de este tipo información con los centros de procesamiento de datos sobre los fenómenos o riesgos a escala mundial.
+            p.mb-0 De igual manera se encuentran incluidas las redes de difusión y comunicación para el intercambio de este tipo de información con los centros de procesamiento de datos sobre los fenómenos o riesgos a escala mundial.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img21.svg")
 
